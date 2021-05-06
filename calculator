@@ -1,0 +1,73 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+  string type;
+
+  cout << "Welcome to the calculator " << endl;
+  cout << "Please input if you want to perform +, -, /, *" << endl;
+
+  getline(cin, type); 
+
+  if(type == "+")
+  {
+    int num1;
+    int num2;
+    cout << "Enter number 1: ";
+    cin >> num1;
+    cout << "Enter number 2: ";
+    cin >> num2;
+
+    cout << num1 + num2;
+
+    
+
+  } else if(type == "-")
+  {
+    int num1;
+    int num2;
+    cout << "Enter number 1: ";
+    cin >> num1;
+    cout << "Enter number 2: ";
+    cin >> num2;
+
+    cout << num1 - num2;
+
+  } else if(type == "/")
+  {
+    int num1;
+    int num2;
+    cout << "Enter number 1: ";
+    cin >> num1;
+    cout << "Enter number 2: ";
+    cin >> num2;
+
+    cout << num1 / num2;
+
+  } else if(type == "*")
+  { 
+    int num1;
+    int num2;
+    cout << "Enter number 1: ";
+    cin >> num1;
+    cout << "Enter number 2: ";
+    cin >> num2;
+
+    cout << num1 * num2;
+  } else 
+{
+cout << “invalid operator” << endl;
+}
+
+
+
+
+  return 0;
+}
+
+  
+
+
+
+
